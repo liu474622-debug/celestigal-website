@@ -221,3 +221,10 @@ body[data-page="contact"] .contact-box .big-copy{
 .brand-name small{display:block;font-weight:500;color:var(--muted);font-size:.68rem;letter-spacing:.16em;margin-top:4px}
 .brand-mark{display:none!important}
 @media(max-width:680px){.brand-symbol{width:36px;height:36px}.brand-name small{display:none}}
+
+/* V3.8 official header logo fix */
+.brand{display:flex;align-items:center;gap:12px;font-weight:800}
+.brand-icon{width:46px;height:46px;object-fit:contain;display:block;background:transparent;border:0;box-shadow:none;flex:0 0 46px}
+.brand span{line-height:1.05}
+.brand small{display:block;font-weight:500;color:var(--muted);font-size:.68rem;letter-spacing:.16em;margin-top:4px}
+@media(max-width:680px){.brand-icon{width:40px;height:40px;flex-basis:40px}.brand small{display:block;font-size:.62rem}}
